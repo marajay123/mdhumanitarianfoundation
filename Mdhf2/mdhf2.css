@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.IMGmdhf{
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.side-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: #f1f1f1;
+}
+
+.side-nav .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.open-btn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#home .hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+#projects .project img {
+    width: 100%;
+    max-height: 200px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form input,
+#contact form textarea {
+    margin: 5px 0;
+    padding: 10px;
+}
+
+#contact form button {
+    align-self: flex-start;
+}
+
+.donation-options button,
+.donation-amount button {
+    margin: 10px;
+}
+
+footer .footer-info p,
+footer .footer-info a {
+    margin: 5px;
+}
+
+#newsletter form input {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#projects, #events, #get-involved, #donate {
+    padding: 20px;
+}
+
+#contact #map {
+    height: 200px;
+    background-color: lightgray;
+}
